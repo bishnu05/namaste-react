@@ -1,0 +1,8 @@
+1. What is CDN?
+==> CDN is content delivery network
+2.What is Crossorigin?
+==> Cross-Origin Resource Sharing (CORS)
+Cross-origin resource sharing (CORS) is a mechanism for integrating applications. CORS defines a way for client web applications that are loaded in one domain to interact with resources in a different domain.
+3.What is CrossOrigin in CDN?
+==> CORS (Cross Origin Resource Sharing) is an HTTP feature that enables a web application running under one domain to access resources in another domain.
+React is a JavaScript library, Faceook developer has written this code.

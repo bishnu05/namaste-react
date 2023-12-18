@@ -14,7 +14,6 @@
 // root.render(heading);
 // connsole.log(heading); //object
 
-
 const parent = React.createElement("div", { id: "parent" }, [
   React.createElement("div", { id: "child1" }, [
     React.createElement("h1", { id: "heading" }, "I'm a an h1 tag"),

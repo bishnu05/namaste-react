@@ -187,8 +187,8 @@ Ans: The `type` attribute specifies the type of the script. The type attribute i
 - `text/babel` : This value indicates that the script is a babel type and required bable to transpile it.
 - `text/typescript`: As the name suggest the script is written in `TypeScript`.
 
-#26. {TitleComponent} vs {<TitleComponent/>} vs
-{<TitleComponent></TitleComponent>} in JSX
+#26. `{TitleComponent}` vs `{<TitleComponent/>} vs
+`{<TitleComponent></TitleComponent>} in JSX
 
 Ans: The Difference is stated below:
 
@@ -258,7 +258,7 @@ const Header = () => {
   );
 };
 ```
-Q.{TitleComponent} vs {<TitleComponent/>} vs {<TitleComponent></TitleComponent>} in JSX.
+Q.`{TitleComponent}` vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}` in JSX.
 
 Ans:
 ```

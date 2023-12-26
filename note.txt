@@ -25,7 +25,7 @@ React is a JavaScript library, Faceook developer has written this code.
 -Hosted on https
 -Tree Shaking
 
-
 (remove main:app.js from package.json)
 run command npx parcel build index.html
+
 

@@ -28,4 +28,3 @@ React is a JavaScript library, Faceook developer has written this code.
 (remove main:app.js from package.json)
 run command npx parcel build index.html
 
-

@@ -211,6 +211,7 @@ Ans: The Difference is stated below:
 ##coding Assignment
 Q. Create a Nested header Element using React.createElement(h1,h2,h3 inside a
 div with class “title”)
+
 ```
 const header = React.createElement("div",{className: "title",},[
 React.createElement("h1",{className:"h1",key:"h1"},"This is h1 tag"),
@@ -218,8 +219,10 @@ React.createElement("h1",{className:"h2",key:"h3"},"This is h2 tag"),
 React.createElement("h1",{className:"h3",key:"h3"},"This is h3 tag"),
 ])
 ```
+
 Q. Create the same element using JSX
 Ans:
+
 ```
 const header = (<div className="title" key="title">
 
@@ -228,8 +231,10 @@ const header = (<div className="title" key="title">
 <h3 key="h3">This is h3 tag</h3>
 </div>)
 ```
+
 Q. Create a functional component of the same with JSX
 Ans:
+
 ```
 const header = function() {
 return (<div className="title" key="title">
@@ -240,8 +245,10 @@ return (<div className="title" key="title">
   </div>)
 };
 ```
+
 Q. Composition of Component (Add a component inside another)
 Ans:
+
 ```
 const AnotherComponent = function() {
 return (<div className="title" key="title">My Name is Bishnu Gorai</div>)
@@ -258,9 +265,11 @@ const Header = () => {
   );
 };
 ```
+
 Q.`{TitleComponent}` vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}` in JSX.
 
 Ans:
+
 ```
 const element = <h1>This is React Element</h1>; // This is React element or {TitleComponent}
 
@@ -300,6 +309,7 @@ JSX
 ○ Add CSS to make it look nice
 
 Ans:
+
 ```
 const Header = () => {
     return(
